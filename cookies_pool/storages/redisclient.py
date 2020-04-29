@@ -103,7 +103,7 @@ class RedisClient(object):
 if __name__ == '__main__':
     conn = RedisClient('accounts', 'youyuan')
     conn1 = RedisClient('cookies', 'youyuan')
-    res = conn.set('13082808996', '226028')
+    res = conn.set('13082808996', 'sang123c')
     res1 = conn1.set('888888', '{"name": "value"}')
     print(res, type(res))
     print(res1, type(res1))

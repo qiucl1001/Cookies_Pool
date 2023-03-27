@@ -2,6 +2,6 @@ selenium==3.141.0
 loguru==0.3.2
 Flask==1.0.3
 requests==2.23.0
-redis==2.10.6
+redis==4.5.3
 environs==7.4.0
 
